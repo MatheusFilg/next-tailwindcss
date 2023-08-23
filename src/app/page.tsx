@@ -1,7 +1,7 @@
 export default function Home() {
   return (
-    <div>
-      <h1>AAAAA</h1>
+    <div className="text-base sm:text-xl lg:text-3xl">
+      <h1>Olá Tailwindcss</h1>
     </div>
   )
 }
