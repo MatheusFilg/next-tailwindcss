@@ -1,4 +1,4 @@
-import { Home, ChevronDown } from 'lucide-react'
+import { ChevronDown } from 'lucide-react'
 import { ElementType } from 'react'
 
 export interface NavItemProps {
