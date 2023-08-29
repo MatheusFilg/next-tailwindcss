@@ -1,15 +1,13 @@
 import { ComponentProps } from 'react'
 
 type InputPrefixProps = ComponentProps<'div'>
-// extendendo as propriedades que uma div pode receber para o meu Prefix
-
+// estendendo as propriedades que uma div pode receber para o meu Prefix
 export function InputPrefix(props: InputPrefixProps) {
   return <div {...props} />
 }
 
 type InputControlProps = ComponentProps<'input'>
-// extendendo as propriedades que uma div pode receber para o meu Prefix
-
+// estendendo as propriedades que um input pode receber para o meu Prefix
 export function InputControl(props: InputControlProps) {
   return (
     <input
@@ -20,7 +18,6 @@ export function InputControl(props: InputControlProps) {
 }
 
 export type InputRootProps = ComponentProps<'div'>
-
 export function InputRoot(props: InputRootProps) {
   return (
     <div

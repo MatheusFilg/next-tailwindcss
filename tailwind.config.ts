@@ -8,12 +8,7 @@ const config: Config = {
         app: 'minmax(18rem, 20rem) 1fr',
         profile: 'max-content 1fr min-content',
         // função css p definir responsividade
-      },
-
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        form: 'minmax(7.5rem, 17.5rem) minmax(25rem, 1fr) minmax(0, 15rem)',
       },
     },
   },
