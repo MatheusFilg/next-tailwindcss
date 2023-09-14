@@ -7,7 +7,7 @@ export function InputPrefix(props: InputPrefixProps) {
 }
 
 type InputControlProps = ComponentProps<'input'>
-// estendendo as propriedades que um input pode receber para o meu Prefix
+// estendendo as propriedades que um input pode receber para o meu Control
 export function InputControl(props: InputControlProps) {
   return (
     <input
